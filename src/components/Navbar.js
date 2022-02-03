@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import {makeStyles} from '@material-ui/core/styles';
 import MobileRightMenuSlider from '@material-ui/core/Drawer';
 import {AppBar, Toolbar, ListItem, IconButton, ListItemText, Avatar, Divider, List, Typography, Box, ListItemIcon} from '@material-ui/core';
-import {ArrowBack, AssignmentInd, Home, Apps, ContactMail} from '@material-ui/icons';
+import {ArrowBack, Menu, AssignmentInd, Home, Apps, ContactMail} from '@material-ui/icons';
 import avatar from '../avatar.png';
 import Footer from './footer'
 
@@ -41,11 +41,11 @@ const menuItems = [
         listText: "Portfolio",
         listPath: "/portfolio"
     },
-    {
-        listIcon: <ContactMail/>,
-        listText: "Contacts",
-        listPath: "/contacts"
-    }
+    // {
+    //     listIcon: <ContactMail/>,
+    //     listText: "Contacts",
+    //     listPath: "/contacts"
+    // }
 ]
 
 const Navbar = () => {
@@ -80,7 +80,7 @@ const Navbar = () => {
             <AppBar position="static" style={{background: "#222"}}>
                 <Toolbar>
                     <IconButton onClick={toggleSlider("right", true)}>
-                        <ArrowBack style={{color: "tomato"}} />
+                        <Menu style={{color: "tomato"}} />
                     </IconButton>
                     <Typography variant="h5" style={{color: "tan"}}>
                         Portfolio

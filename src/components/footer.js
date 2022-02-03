@@ -4,6 +4,7 @@ import { BottomNavigation, BottomNavigationAction } from "@material-ui/core";
 import Facebook from "@material-ui/icons/Facebook";
 import Instagram from "@material-ui/icons/Instagram";
 import LinkedIn from "@material-ui/icons/LinkedIn";
+import { Link } from "react-router-dom";
 
 const customStyle = makeStyles({
   root: {
@@ -31,21 +32,28 @@ function renderIcons(item, classes) {
   );
 }
 
+const handleChange = (value) => {
+  window.open( 'https://www.linkedin.com/in/niken-maharjan-6943b1191/')
+};
+
 const footer = () => {
   const classes = customStyle();
   const socialMedia = [
     {
       icon: <Facebook />,
+      id: 0
     },
     {
       icon: <Instagram />,
+      id: 1
     },
     {
       icon: <LinkedIn />,
+      id: 2
     },
   ];
   return (
-    <BottomNavigation width="auto" style={{ background: "#222" }}>
+    <BottomNavigation onChange={handleChange} width="auto" style={{ background: "#222" }}>
       {socialMedia.map((lsItem, key) => renderIcons(lsItem, classes))}
     </BottomNavigation>
   );

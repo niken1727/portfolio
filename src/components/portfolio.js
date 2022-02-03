@@ -70,23 +70,33 @@ const portfolio = () => {
   const projectArray = [
     {
       image: project1,
-      name: "Project 1",
+      name: "PrabhuPAY",
       description: "This is my first project",
     },
     {
       image: project1,
-      name: "Project 2",
+      name: "E-Commerce",
       description: "This is my second project",
     },
     {
       image: project1,
-      name: "Project 3",
+      name: "PayTime",
       description: "This is my third project",
     },
     {
       image: project1,
-      name: "Project 4",
+      name: "Thaili",
       description: "This is my fourth project",
+    },
+    {
+      image: project1,
+      name: "YoApp",
+      description: "This is my fifth project",
+    },
+    {
+      image: project1,
+      name: "Nilkantha",
+      description: "This is my sixth project",
     },
   ];
   return (

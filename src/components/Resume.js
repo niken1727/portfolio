@@ -144,7 +144,7 @@ const Resume = () => {
     },
     {
       date: "2019",
-      topic: "Android Studio",
+      topic: "Android",
       workPlace: "Prabhu Technology",
       description: "Learned about Java, Kotlin",
     },
@@ -154,6 +154,12 @@ const Resume = () => {
       workPlace: "Freelancer",
       description: "Learned about mern",
     },
+    {
+      date: "2021",
+      topic: "Android",
+      workPlace: "NPS",
+      description: "Learned about SDK, Kotlin"
+    }
   ];
   return (
     <>
