@@ -132,33 +132,33 @@ const Resume = () => {
   const workArray = [
     {
       date: "2018",
-      topic: "Web Design",
+      topic: "FrontEnd Developer",
       workPlace: "Freelancer",
-      description: "Learned about React JS, Vue JS, HTML, CSS",
+      description: "React JS, Vue JS, HTML, CSS",
     },
     {
       date: "2019",
-      topic: "React Native",
+      topic: "Mobile App Developer",
       workPlace: "Prabhu Technology",
-      description: "Learned about React native",
+      description: "React native",
     },
     {
       date: "2019",
-      topic: "Android",
+      topic: "Android Developer",
       workPlace: "Prabhu Technology",
-      description: "Learned about Java, Kotlin",
+      description: "Java, Kotlin",
     },
     {
       date: "2020",
-      topic: "MERN stack",
+      topic: "FullStack Developer",
       workPlace: "Freelancer",
-      description: "Learned about mern",
+      description: " Nestjs, Nodejs, Reactjs, Nextjs, Kotlin, PostgreSQL, Prisma ORM",
     },
     {
       date: "2021",
-      topic: "Android",
-      workPlace: "NPS",
-      description: "Learned about SDK, Kotlin"
+      topic: "Android Developer",
+      workPlace: "Digihub",
+      description: "Kotlin, Java"
     }
   ];
   return (

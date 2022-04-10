@@ -13,6 +13,10 @@ import {
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import project1 from "../images/html-css-javascript-lg.jpg";
+import android from "../images/android.jpg";
+
+import mernStack from "../images/mern-stack.jpg";
+
 
 const customStyles = makeStyles({
   mainContainer: {
@@ -52,14 +56,14 @@ function renderProjects(item, classes) {
           </CardContent>
         </CardActionArea>
 
-        <CardActions>
+        {/* <CardActions>
           <Button size="small" color="primary">
             Share
           </Button>
           <Button size="small" color="primary">
             Live Demo
           </Button>
-        </CardActions>
+        </CardActions> */}
       </Card>
     </Grid>
   );
@@ -69,34 +73,34 @@ const portfolio = () => {
   const classes = customStyles();
   const projectArray = [
     {
-      image: project1,
+      image: android,
       name: "PrabhuPAY",
-      description: "This is my first project",
+      description: "PrabhuPAY is a mobile wallet. PrabhuPAY allows easy payment of various utility bills, ticket bookings, online store, hospital OPD tickets. PrabhuPAY allows users to vote for their favourite contestant in various event like Comedy Circus, Voice Of Nepal.",
     },
     {
-      image: project1,
-      name: "E-Commerce",
-      description: "This is my second project",
+      image: mernStack,
+      name: "Agro E-Commerce",
+      description: "Agro E-commerce is a platform for merchant to sell their products and customers can buy products online.",
     },
     {
-      image: project1,
+      image: android,
       name: "PayTime",
-      description: "This is my third project",
+      description: "PayTime is a mobile wallet. PayTime allows easy payment of various utility bills, ticket booking.",
     },
     {
-      image: project1,
+      image: android,
       name: "Thaili",
-      description: "This is my fourth project",
+      description: "Thaili is a mobile wallet. Thaili allows easy payment of various utility bills. Thaili has NFC payment which allows user to tap and pay.",
     },
     {
-      image: project1,
-      name: "YoApp",
-      description: "This is my fifth project",
+      image: android,
+      name: "YOApp",
+      description: "YOApp is a mobile wallet. YOApp allows easy payment of various utility bills, ticket bookings, merchant payment.",
     },
     {
-      image: project1,
+      image: mernStack,
       name: "Nilkantha",
-      description: "This is my sixth project",
+      description: "Nilkantha is a municipality app that allows locals to view news, notifies new events happening in municipality.",
     },
   ];
   return (
